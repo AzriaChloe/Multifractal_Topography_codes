@@ -1,0 +1,149 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> [Warning: Directory already exists.] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+filename =
+
+    '/S07/S07_A20_C10_H04_LAT2501_LON05000TOPO'
+
+>> >> >> >> >> >> >> >> >> decomposition sur la base de harmonique spherique
+Precomputed Plm will be used...
+decomposition sur la base de harmonique spherique
+Precomputed Plm will be used...
+Reconstruction...
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+computing and saving legendre polynomials
+decomposition sur la base de harmonique spherique
+Precomputed Plm will be used...
+decomposition sur la base de harmonique spherique
+Precomputed Plm will be used...
+Reconstruction...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+Precomputed Plm will be used...
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> [Warning: Directory already exists.] 
+[> In h5save (line 2)] 
+[Warning: Directory already exists.] 
+[> In h5save (line 3)] 
+[Warning: File '/data/azria/data/S07/S07_A20_C10_H04_LAT2501_LON05000TOPO.hdf5'
+not found.] 
+[> In h5save (line 8)] 
+[Warning: File
+'/data/azria/data/metadata/S07/S07_A20_C10_H04_LAT2501_LON05000TOPOMETARND.hdf5'
+not found.] 
+[> In h5save (line 9)] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 	1:48:31 real,	1:48:31 user,	1:48:31 sys
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+filename =
+
+    '/S07/S07_A20_C10_H04_LAT5001_LON10000TOPO'
+
+>> >> >> >> >> >> >> >> >> decomposition sur la base de harmonique spherique
+Plm need to be computed
+{Error using save
+Can not write file /data/azria/data/LEGENDRE/LSSM-4999-5000_L_3259.mat.
+
+Error in xyz2plm_modified (line 131)
+      save(myname(fnpl,l),'Plm');
+
+Error in spher_int_frac (line 42)
+[sigma_l_m]=xyz2plm_modified(singularity_matrice,dim-2,'gl', option_nosave);
+
+Error in spher_sim (line 25)
+[bruit_integrated,C]=spher_int_frac(bruit,2*(1-1/alpha));
+} 
+>> >> >> {Undefined function or variable 'FIF'.
+} 
+>> {Undefined function or variable 'FIF'.
+} 
+>> >> {Undefined function or variable 'FIF'.
+} 
+>> {Undefined function or variable 'FIFnorm'.
+} 
+>> >> >> >> >> >> >> >> >> >> >> {Error using save
+Can not write file
+/data/azria/data/S07/S07_A20_C10_H04_LAT5001_LON10000TOPO.mat.
+} 
+>> >> {Undefined function or variable 'height'.
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 	1:26:30 real,	1:26:30 user,	1:26:30 sys
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+filename =
+
+    '/S07/S07_A20_C10_H04_LAT5001_LON10000TOPO'
+
+>> >> >> >> >> >> >> >> >> decomposition sur la base de harmonique spherique
+Plm need to be computed
+Command terminated by signal 15
+	4:45.79 real,	4:45.79 user,	4:45.79 sys
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+filename =
+
+    '/S07/S07_A20_C10_H04_LAT5001_LON10000TOPO'
+
+>> >> >> >> >> >> >> >> >> decomposition sur la base de harmonique spherique
+decomposition sur la base de harmonique spherique
+Reconstruction...
+decomposition sur la base de harmonique spherique
+decomposition sur la base de harmonique spherique
+Reconstruction...
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 	14:27:40 real,	14:27:40 user,	14:27:40 sys
